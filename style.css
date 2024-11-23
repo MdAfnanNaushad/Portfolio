@@ -428,7 +428,9 @@ footer:hover {
     }
 
     nav {
-        width: 73rem;
+        width: 75rem;
+        height: 9rem;
+        font-size: 24px
     }
 
     .leftsection {
