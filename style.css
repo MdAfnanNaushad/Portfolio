@@ -4,6 +4,9 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+*{
+    scroll-behavior: smooth;
+}
 
 nav {
     display: flex;
@@ -420,7 +423,8 @@ footer:hover {
 
 @media screen and (max-width: 480px) {
     body {
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
     }
 
     nav {
