@@ -428,13 +428,15 @@ footer:hover {
     }
 
     nav {
-        width: 75rem;
-        height: 9rem;
-        font-size: 24px
+        width: 83rem;
+        height: 10rem;
+        font-size: 35px
     }
 
-    .leftsection {
-        font-size: 10rem;
+    
+    .left{
+        font-size: 40px;
+        margin-right: 30px;
     }
 
     .visit {
@@ -464,6 +466,13 @@ footer:hover {
     .grey {
         text-align: center;
     }
+    .secondSection{
+        width: 100%;
+        font-size: 28px;
+        word-break:normal;
+        margin-right: 5px;
+        gap: 5;
+    }
 
     .secondSection h1 {
         text-align: center;
@@ -474,9 +483,17 @@ footer:hover {
         width: 265vw;
     }
 
+
     .description {
-        font-size: 1rem;
+        font-size:1rem;
         line-height: 14px;
+        
+    }
+    pre{
+        font-size: 20px;
+    }
+     .headings{
+        font-size: 35px;
     }
 
     .head {
@@ -499,6 +516,21 @@ footer:hover {
     }
 
     .footer {
-        width: 330vw;
+        width: 365vw;
+        height: 20vh;
+        font-size: 50px;
+    }
+    .first h1{
+        font-size: 43px;   
+    }
+    
+    .Second ul li {
+        font-size: 26px;
+    }
+    .third ul li {
+        font-size: 26px;
+    }
+    .fourth ul li {
+        font-size: 26px;
     }
 }
