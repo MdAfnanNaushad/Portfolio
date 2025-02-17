@@ -12,7 +12,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 120px;
   background-color: rgb(18, 18, 62);
 }
 
@@ -34,6 +34,8 @@ nav ul li a {
   color: white;
   gap: 4;
   margin: 23px;
+  object-fit: cover;
+  font-size: 1.5rem;
 }
 
 nav ul li a:hover {
@@ -57,7 +59,7 @@ nav li:hover {
 }
 
 .left {
-  font-size: 1.5rem;
+  font-size: 40px;
 }
 
 .firstSection {
@@ -65,23 +67,22 @@ nav li:hover {
   justify-content: space-around;
   margin: 23px 0;
   align-items: center;
-  margin: 120px;
 }
 
 .leftsection {
-  width: 34px;
+  width: min-content;
   font-size: 3rem;
   margin: 30px 0;
 }
-
+/* 
 .rightsection {
   width: 34px;
-}
+} */
 
 .rightsection img {
-  width: 80%;
   margin-top: 50px;
   border-radius: 30%;
+  height: 35rem;
 }
 
 .color {
@@ -92,7 +93,7 @@ nav li:hover {
   max-width: 80vw;
   margin: auto;
   font-size: 1.5rem;
-  height: 80vh;
+  height: 66vh;
 }
 
 main hr {
@@ -117,6 +118,7 @@ main hr {
 .transforms:hover {
   color: #6d2fa6;
   transition: all 1s;
+  object-fit: cover;
 }
 
 .secondSection .vertical {
@@ -148,17 +150,12 @@ main hr {
 }
 
 .footer {
-  height: 200px;
+  height: 350px;
   display: flex;
   background-color: rgb(0, 0, 0);
   border-top: 2px solid #b1a3be;
   justify-content: space-evenly;
-}
-
-footer:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  transition: all 0.1s ease-in-out;
+  padding-top: 20px;
 }
 
 .footer ul {
@@ -172,7 +169,7 @@ footer:hover {
 }
 
 .footer ul li a:hover {
-  font-size: 20px;
+  font-size: 2rem;
   color: rgb(3, 238, 255);
   transition: all 0.2s ease-in;
   background: linear-gradient(45deg, rgb(40, 39, 40), rgb(1, 28, 53));
@@ -180,6 +177,21 @@ footer:hover {
   border-radius: 12px;
   padding: 5%;
   object-fit: cover;
+}
+.first{
+  font-size: 2rem;
+}
+.Second{
+  font-size: 1.75rem;
+  line-height: 35px;
+}
+.third{
+  font-size: 1.75rem;
+  line-height: 35px;
+}
+.fourth{
+  font-size: 1.75rem;
+  line-height: 35px;
 }
 
 .secondSection {
@@ -191,7 +203,7 @@ footer:hover {
 
 .description:hover {
   transition: all 0.5s ease-in-out;
-  font-size: medium;
+  font-size:1.1rem;
   font-family: poppins;
   font-weight: 300;
   color: azure;
@@ -202,6 +214,7 @@ footer:hover {
   filter: drop-shadow(5px 3px 4px #0bcce5);
   border-radius: 15px;
   background: linear-gradient(45deg, rgb(81, 6, 110), gold);
+  padding: 10px;
 }
 
 .verticaltext:hover {
@@ -210,10 +223,11 @@ footer:hover {
   color: rgba(255, 255, 255, 0.97);
   border-radius: 10px;
   text-overflow: clip;
-  overflow-wrap: break-word;
-  border: 2px solid rgb(0, 121, 242);
+  overflow-wrap:normal;
+  border: 4px solid rgb(44, 3, 56);
   filter: drop-shadow(5px 3px 4px #0bcce5);
-  background: linear-gradient(45deg, rgb(185, 7, 255), rgb(234, 219, 133));
+  background: linear-gradient(45deg, rgba(170, 13, 233, 0.971), rgb(234, 219, 133));
+  padding: 10px;
 }
 
 .head {
@@ -224,6 +238,7 @@ footer:hover {
   font-size: xx-large;
   font-weight: bold;
   padding-bottom: 5px;
+  font-size: 3.5rem;
 }
 
 .thirdSection {
@@ -250,9 +265,11 @@ footer:hover {
   color: rgb(235, 235, 235);
   border: 2px solid rgb(37, 186, 255);
   font-size: medium;
-  margin: 10px;
+  margin: 1px;
   padding: 10px;
   border-radius: 8px;
+  height: 53px;
+  font-size: 20px;
 }
 .visit > a {
   color: aqua;
@@ -261,19 +278,19 @@ footer:hover {
 .visit:hover {
   transition: all 0.1s ease-in;
   border: 2px solid white;
-  font-size: 15px;
+  font-size: 25px;
   border-radius: 15px;
   filter: drop-shadow(5px 3px 4px #0bcce5);
 }
 
 .btn {
-  height: 50px;
-  width: 80px;
-  border-radius: 15px;
+  height: 93px;
+  width: 160px;
+  border-radius: 25px;
   background-color: aqua;
   color: blueviolet;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .btn:hover {
@@ -292,7 +309,7 @@ footer:hover {
 }
 
 .sp {
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 600;
   margin: 2%;
   margin-bottom: 5%;
@@ -301,7 +318,8 @@ footer:hover {
 }
 
 .development {
-  line-height: 22px;
+  line-height: 35px;
+  font-size: 32px;
 }
 
 .development:hover {
@@ -312,7 +330,8 @@ footer:hover {
 }
 
 .frameworks {
-  line-height: 22px;
+  line-height: 35px;
+  font-size: 32px;
 }
 
 .frameworks:hover {
@@ -323,7 +342,8 @@ footer:hover {
 }
 
 .proglang {
-  line-height: 22px;
+  line-height: 35px;
+  font-size: 32px;
 }
 
 .proglang:hover {
@@ -335,19 +355,19 @@ footer:hover {
 
 .images {
   margin-top: 2px;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   margin-bottom: -5px;
   object-fit: cover;
 }
 
 .images:hover {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   transition: all 0.1s ease-in-out;
   border: #0bcce5;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
 }
 
@@ -377,7 +397,7 @@ footer:hover {
 
 .pre {
   font-family: "Times New Roman", Times, serif;
-  font-size: 0.75rem;
+  font-size: 25px;
   font-weight: 200;
   max-width: 100vw;
   overflow-wrap: break-word;
@@ -391,23 +411,24 @@ footer:hover {
 }
 
 .Mhead {
-  font-size: 2rem;
+  margin-top: 10px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
 .phead {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 .headings1 {
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   font-weight: 600;
 }
-.video {
+/* .video {
   height: 20px;
   width: 20px;
-}
+} */
 
 @media screen and (max-width: 768px) {
   body {
@@ -467,8 +488,9 @@ footer:hover {
   }
 
   .rightsection img {
-    width: 49rem;
-    margin-left: 21rem;
+    height: auto;
+    width: 44rem;
+    margin-left: 81rem;
     border-radius: 43%;
     filter: drop-shadow(10px 6px 8px #5c7df1);
     background: linear-gradient(45deg, rgb(81, 6, 110), gold);
@@ -493,7 +515,7 @@ footer:hover {
     word-break: normal;
     margin-right: -102px;
     gap: 5;
-    margin-bottom: 103rem;
+    margin-bottom: 130rem;
   }
 
   .secondSection h1 {
@@ -544,6 +566,19 @@ footer:hover {
     gap: -48;
     width: -webkit-fill-available;
     font-size: 4rem;
+  }
+  .verticaltext:hover {
+    transition: all 0.1s ease-out;
+    background-color: rgba(108, 62, 182, 0.438);
+    color: rgba(255, 255, 255, 0.97);
+    border-radius: 10px;
+    text-overflow: clip;
+    overflow-wrap:normal;
+    border: 4px solid rgb(44, 3, 56);
+    filter: drop-shadow(5px 3px 4px #0bcce5);
+    background: linear-gradient(45deg, rgba(170, 13, 233, 0.971), rgb(234, 219, 133));
+    padding: 10px;
+    width: 28rem;
   }
   .description {
     font-size: 1rem;
@@ -614,12 +649,15 @@ footer:hover {
   }
   .development {
     line-height: 7rem;
+    font-size: larger;
   }
   .frameworks {
     line-height: 7rem;
+    font-size: larger;
   }
   .proglang {
     line-height: 7rem;
+    font-size: larger;
   }
   .images {
     width: 8rem;
@@ -690,6 +728,7 @@ footer:hover {
           width: 101rem;
           height: 101rem;
           padding-top: 4rem;
+          margin-left: 3rem;
   }
   .footer ul li a:hover {
     font-size: 6rem;
@@ -703,17 +742,20 @@ footer:hover {
   }
   
   .first h1 {
-    font-size: 80px;
+    font-size: 8rem;
   }
 
   .Second ul li {
     font-size: 4rem;
     margin-right: 1px;
+    line-height: 4.25rem
   }
   .third ul li {
     font-size: 4rem;
+    line-height: 4.25rem
   }
   .fourth ul li {
     font-size: 4rem;
+    line-height: 4.25rem
   }
 }
